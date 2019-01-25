@@ -14,13 +14,15 @@ These are some of the UI/bug improvements that I have noticed as of 1/25/2019 on
 
 [x]Back appears twice in mobile nav menus
 
-    Temporarily fixed by limiting the init function to only run once using a boolean global variable called 'navInit'.
+    Temporarily fixed by limiting the init function to only run once using a boolean global variable called 'navInit'. Suspect that home.js for the index page is being loaded twice on index.html. Back works fine on other pages except for the home page. Other pages use a different (foundtion.ODFL.js) for the nav menu.
 
 [x]Back button goes back twice leaving no menu
 
     Temp fixed as well by limiting the back init function
 
-## Future Idea
+## Thoughts
 
-[] Increase height of button links (e.g. Domestic, Expedited, etc)
+[ ] Increase height of button links (e.g. Domestic, Expedited, etc)
+
+
 

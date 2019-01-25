@@ -1,4 +1,5 @@
 var navInit = false;
+console.log('this is logged');
 function closeAcctModal(e) {
     var t = e.target.id.split("-");
     var n = $("#row-" + t[1] + "-" + t[2]).clone();
