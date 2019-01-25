@@ -1,4 +1,4 @@
-var acc = false;
+var navInit = false;
 function closeAcctModal(e) {
     var t = e.target.id.split("-");
     var n = $("#row-" + t[1] + "-" + t[2]).clone();
@@ -744,6 +744,7 @@ if (typeof jQuery === "undefined" && typeof Zepto === "undefined" && typeof $ ==
     }
 })
 (Foundation.zj, this, this.document);
+
 (function(e, t, n, r) {
     "use strict";
     Foundation.libs.topbar = {
@@ -759,11 +760,11 @@ if (typeof jQuery === "undefined" && typeof Zepto === "undefined" && typeof $ ==
             scrolltop: true,
             init: false
         },
+        /*This init function is running twice*/
         init: function(n, r, i) {
             
-            if(acc == false){
-                acc = true;
-            var navInit = true;
+            if(navInit == false){
+                navInit = true; 
             Foundation.inherit(this, "data_options addCustomRule");
             var s = this;
             if (typeof r === "object") {
