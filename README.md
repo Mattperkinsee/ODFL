@@ -26,6 +26,7 @@ These are some of the UI/bug improvements that I have noticed as of 1/25/2019 on
 
 - [x] Add responsive images for homeImage
 
-        *Added picture element with 3 optimized images. Reduced page size from 1.1MB to 887KB on mobile and to 938KB on mobile.
+        Added picture element with 3 optimized images. Reduced page size from 1.1MB to 887KB on mobile and to 938KB on mobile.
 
-
+## Demo
+[Click here to see live demo](https://www.themattperkins.com/ODFL/Home)
