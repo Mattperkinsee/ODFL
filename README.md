@@ -22,7 +22,7 @@ These are some of the UI/bug improvements that I have noticed as of 1/25/2019 on
 
 ## Thoughts
 
-- [] Increase height of button links (e.g. Domestic, Expedited, etc)
+- [ ] Increase height of button links (e.g. Domestic, Expedited, etc)
 
 - [x] Add responsive images for homeImage
 
